@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            background: black;
+        }
+
+        button{
+            width: 250px;
+            height: 90px;
+            border-radius: 50px;
+            margin-left: 40%;
+            margin-top: 20%;
+            border: 5px solid aqua;
+            animation: move 13s linear infinite;
+
+        }
+        @keyframes move{
+            
+            50%{
+            background-position:9000% 0;
+            }
+           
+            from{background: linear-gradient(to right ,rgb(20, 102, 68),rgb(0, 255, 255));}
+            to{background: linear-gradient(to right ,rgb(20, 102, 68),rgb(85, 243, 243));}
+        }
+
+        h2{
+            padding-left: 40%;
+            background: linear-gradient(rgb(20, 102, 68),rgb(85, 243, 243));
+            border-radius: 50px;
+            border: 5px solid aqua;
+            animation: fadel 20s linear infinite ;
+        }
+
+        @keyframes fadel{
+            
+            50%{
+            background-position:90000% 0;
+            }
+           
+            from{background: linear-gradient(to right ,rgb(22, 124, 82),rgb(109, 233, 181),rgb(109, 233, 181),rgb(20, 102, 68),rgb(0, 255, 255));}
+            to{background: linear-gradient(to right ,rgb(20, 102, 68),rgb(85, 243, 243),rgb(5, 97, 97));}
+        }
+        
+    </style>
+</head>
+<body>
+    <h2>from Fadel-dev</h2>
+    <button>tap on</button>
+</body>
+</html>
